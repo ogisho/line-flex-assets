@@ -8,7 +8,7 @@
     "contents": [
       {
         "type": "text",
-        "text": "📅 通知曜日設定",
+        "text": "\ud83d\uddd3 通知曜日設定",
         "weight": "bold",
         "size": "xl",
         "align": "center"
@@ -39,9 +39,9 @@
                 "style": "primary",
                 "color": "#AAAAFF",
                 "action": {
-                  "type": "message",
+                  "type": "postback",
                   "label": "月",
-                  "text": "洗濯指数・曜日・月"
+                  "data": "weekday_mon"
                 }
               },
               {
@@ -49,9 +49,9 @@
                 "style": "primary",
                 "color": "#AAAAFF",
                 "action": {
-                  "type": "message",
+                  "type": "postback",
                   "label": "火",
-                  "text": "洗濯指数・曜日・火"
+                  "data": "weekday_tue"
                 }
               },
               {
@@ -59,9 +59,9 @@
                 "style": "primary",
                 "color": "#AAAAFF",
                 "action": {
-                  "type": "message",
+                  "type": "postback",
                   "label": "水",
-                  "text": "洗濯指数・曜日・水"
+                  "data": "weekday_wed"
                 }
               },
               {
@@ -69,9 +69,9 @@
                 "style": "primary",
                 "color": "#AAAAFF",
                 "action": {
-                  "type": "message",
+                  "type": "postback",
                   "label": "木",
-                  "text": "洗濯指数・曜日・木"
+                  "data": "weekday_thu"
                 }
               }
             ]
@@ -85,9 +85,9 @@
                 "style": "primary",
                 "color": "#AAAAFF",
                 "action": {
-                  "type": "message",
+                  "type": "postback",
                   "label": "金",
-                  "text": "洗濯指数・曜日・金"
+                  "data": "weekday_fri"
                 }
               },
               {
@@ -95,9 +95,9 @@
                 "style": "primary",
                 "color": "#AAAAFF",
                 "action": {
-                  "type": "message",
+                  "type": "postback",
                   "label": "土",
-                  "text": "洗濯指数・曜日・土"
+                  "data": "weekday_sat"
                 }
               },
               {
@@ -105,9 +105,9 @@
                 "style": "primary",
                 "color": "#AAAAFF",
                 "action": {
-                  "type": "message",
+                  "type": "postback",
                   "label": "日",
-                  "text": "洗濯指数・曜日・日"
+                  "data": "weekday_sun"
                 }
               },
               {
@@ -115,9 +115,9 @@
                 "style": "primary",
                 "color": "#AAAAFF",
                 "action": {
-                  "type": "message",
+                  "type": "postback",
                   "label": "祝",
-                  "text": "洗濯指数・曜日・祝"
+                  "data": "weekday_holiday"
                 }
               }
             ]
