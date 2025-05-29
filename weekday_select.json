@@ -44,7 +44,7 @@
               {
                 "type": "button",
                 "style": "primary",
-                "color": "#AAAAFF",
+                "color": "{{color_mon}}",
                 "action": {
                   "type": "postback",
                   "label": "月",
@@ -54,7 +54,7 @@
               {
                 "type": "button",
                 "style": "primary",
-                "color": "#AAAAFF",
+                "color": "{{color_tue}}",
                 "action": {
                   "type": "postback",
                   "label": "火",
@@ -64,7 +64,7 @@
               {
                 "type": "button",
                 "style": "primary",
-                "color": "#AAAAFF",
+                "color": "{{color_wed}}",
                 "action": {
                   "type": "postback",
                   "label": "水",
@@ -74,7 +74,7 @@
               {
                 "type": "button",
                 "style": "primary",
-                "color": "#AAAAFF",
+                "color": "{{color_thu}}",
                 "action": {
                   "type": "postback",
                   "label": "木",
@@ -90,7 +90,7 @@
               {
                 "type": "button",
                 "style": "primary",
-                "color": "#AAAAFF",
+                "color": "{{color_fri}}",
                 "action": {
                   "type": "postback",
                   "label": "金",
@@ -100,7 +100,7 @@
               {
                 "type": "button",
                 "style": "primary",
-                "color": "#AAAAFF",
+                "color": "{{color_sat}}",
                 "action": {
                   "type": "postback",
                   "label": "土",
@@ -110,7 +110,7 @@
               {
                 "type": "button",
                 "style": "primary",
-                "color": "#AAAAFF",
+                "color": "{{color_sun}}",
                 "action": {
                   "type": "postback",
                   "label": "日",
@@ -120,7 +120,7 @@
               {
                 "type": "button",
                 "style": "primary",
-                "color": "#AAAAFF",
+                "color": "{{color_hol}}",
                 "action": {
                   "type": "postback",
                   "label": "祝",
