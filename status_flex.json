@@ -11,7 +11,7 @@
         "contents": [
           {
             "type": "text",
-            "text": "🮺 洗濯指数通知",
+            "text": "🧺 洗濯指数通知",
             "weight": "bold",
             "size": "xl"
           },
@@ -23,12 +23,12 @@
             "contents": [
               {
                 "type": "text",
-                "text": "🏠 自宅：ON（07:30）",
+                "text": "🏠 自宅：{{laundry_status}}（{{laundry_time}}）",
                 "wrap": true
               },
               {
                 "type": "text",
-                "text": "川崎市中原区",
+                "text": "{{laundry_city}}",
                 "size": "sm",
                 "color": "#888888"
               },
@@ -40,12 +40,13 @@
                   {
                     "type": "button",
                     "flex": 1,
-                    "style": "secondary",
+                    "style": "{{laundry_button_style}}",
+                    "color": "{{laundry_button_color}}",
                     "height": "sm",
                     "action": {
                       "type": "message",
-                      "label": "OFFにする",
-                      "text": "洗濯指数・自宅をOFFにする"
+                      "label": "{{laundry_button_label}}",
+                      "text": "洗濯指数・自宅を{{laundry_button_label}}"
                     }
                   },
                   {
@@ -88,12 +89,12 @@
             "contents": [
               {
                 "type": "text",
-                "text": "🏠 自宅：OFF",
+                "text": "🏠 自宅：{{clothes_status}}（{{clothes_time}}）",
                 "wrap": true
               },
               {
                 "type": "text",
-                "text": "川崎市中原区",
+                "text": "{{clothes_city}}",
                 "size": "sm",
                 "color": "#888888"
               },
@@ -105,12 +106,13 @@
                   {
                     "type": "button",
                     "flex": 1,
-                    "style": "secondary",
+                    "style": "{{clothes_button_style}}",
+                    "color": "{{clothes_button_color}}",
                     "height": "sm",
                     "action": {
                       "type": "message",
-                      "label": "ONにする",
-                      "text": "服装指数・自宅をONにする"
+                      "label": "{{clothes_button_label}}",
+                      "text": "服装指数・自宅を{{clothes_button_label}}"
                     }
                   },
                   {
@@ -122,40 +124,6 @@
                       "type": "message",
                       "label": "編集",
                       "text": "服装指数・自宅を編集"
-                    }
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": "📍 登録地①：未登録",
-                "wrap": true
-              },
-              {
-                "type": "box",
-                "layout": "horizontal",
-                "spacing": "sm",
-                "contents": [
-                  {
-                    "type": "button",
-                    "flex": 1,
-                    "style": "secondary",
-                    "height": "sm",
-                    "action": {
-                      "type": "message",
-                      "label": "追加",
-                      "text": "服装指数・登録地①を追加"
-                    }
-                  },
-                  {
-                    "type": "button",
-                    "flex": 1,
-                    "style": "primary",
-                    "height": "sm",
-                    "action": {
-                      "type": "message",
-                      "label": "編集",
-                      "text": "服装指数・登録地①を追加"
                     }
                   }
                 ]
@@ -187,12 +155,12 @@
             "contents": [
               {
                 "type": "text",
-                "text": "🏠 自宅：ON（08:00）",
+                "text": "🏠 自宅：{{umbrella_status}}（{{umbrella_time}}）",
                 "wrap": true
               },
               {
                 "type": "text",
-                "text": "川崎市中原区",
+                "text": "{{umbrella_city}}",
                 "size": "sm",
                 "color": "#888888"
               },
@@ -204,12 +172,13 @@
                   {
                     "type": "button",
                     "flex": 1,
-                    "style": "secondary",
+                    "style": "{{umbrella_button_style}}",
+                    "color": "{{umbrella_button_color}}",
                     "height": "sm",
                     "action": {
                       "type": "message",
-                      "label": "OFFにする",
-                      "text": "傘通知・自宅をOFFにする"
+                      "label": "{{umbrella_button_label}}",
+                      "text": "傘通知・自宅を{{umbrella_button_label}}"
                     }
                   },
                   {
@@ -221,46 +190,6 @@
                       "type": "message",
                       "label": "編集",
                       "text": "傘通知・自宅を編集"
-                    }
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": "📍 登録地①：ON（07:45）月火水木金",
-                "wrap": true
-              },
-              {
-                "type": "text",
-                "text": "東京都港区",
-                "size": "sm",
-                "color": "#888888"
-              },
-              {
-                "type": "box",
-                "layout": "horizontal",
-                "spacing": "sm",
-                "contents": [
-                  {
-                    "type": "button",
-                    "flex": 1,
-                    "style": "secondary",
-                    "height": "sm",
-                    "action": {
-                      "type": "message",
-                      "label": "OFFにする",
-                      "text": "傘通知・登録地①をOFFにする"
-                    }
-                  },
-                  {
-                    "type": "button",
-                    "flex": 1,
-                    "style": "primary",
-                    "height": "sm",
-                    "action": {
-                      "type": "message",
-                      "label": "編集",
-                      "text": "傘通知・登録地①を編集"
                     }
                   }
                 ]
