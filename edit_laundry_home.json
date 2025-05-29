@@ -98,7 +98,7 @@
               },
               {
                 "type": "text",
-                "text": "未登録",
+                "text": "{{weekday}}",  // ←✅ 差し替え済み！
                 "flex": 3,
                 "size": "md",
                 "color": "#888888"
