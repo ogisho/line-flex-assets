@@ -21,6 +21,13 @@
         "color": "#666666"
       },
       {
+        "type": "text",
+        "text": "※反応が遅いので1回タップしてお待ちください。",
+        "size": "sm",
+        "align": "center",
+        "color": "#999999"
+      },
+      {
         "type": "separator",
         "margin": "md"
       },
