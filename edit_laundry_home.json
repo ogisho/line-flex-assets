@@ -53,6 +53,90 @@
                 }
               }
             ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "通知時間",
+                "flex": 2,
+                "size": "md",
+                "weight": "bold"
+              },
+              {
+                "type": "text",
+                "text": "未登録",
+                "flex": 3,
+                "size": "md",
+                "color": "#888888"
+              },
+              {
+                "type": "button",
+                "style": "primary",
+                "height": "sm",
+                "flex": 2,
+                "action": {
+                  "type": "message",
+                  "label": "編集",
+                  "text": "洗濯指数・通知時間を編集"
+                }
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "通知曜日",
+                "flex": 2,
+                "size": "md",
+                "weight": "bold"
+              },
+              {
+                "type": "text",
+                "text": "未登録",
+                "flex": 3,
+                "size": "md",
+                "color": "#888888"
+              },
+              {
+                "type": "button",
+                "style": "primary",
+                "height": "sm",
+                "flex": 2,
+                "action": {
+                  "type": "message",
+                  "label": "編集",
+                  "text": "洗濯指数・通知曜日を編集"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "separator",
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "button",
+            "style": "secondary",
+            "height": "sm",
+            "color": "#cccccc",
+            "action": {
+              "type": "message",
+              "label": "戻る",
+              "text": "設定画面"
+            }
           }
         ]
       }
