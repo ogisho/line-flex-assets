@@ -36,7 +36,7 @@
               },
               {
                 "type": "text",
-                "text": "川崎市中原区",
+                "text": "{{city}}",
                 "flex": 3,
                 "size": "md",
                 "color": "#888888"
@@ -67,7 +67,7 @@
               },
               {
                 "type": "text",
-                "text": "未登録",
+                "text": "{{time}}",
                 "flex": 3,
                 "size": "md",
                 "color": "#888888"
