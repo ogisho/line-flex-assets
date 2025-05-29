@@ -4,11 +4,11 @@
   "body": {
     "type": "box",
     "layout": "vertical",
-    "spacing": "lg",
+    "spacing": "md",
     "contents": [
       {
         "type": "text",
-        "text": "洗濯指数通知設定",
+        "text": "\u6d17\u6fef\u6307\u6570\u901a\u77e5\u8a2d\u5b9a",
         "weight": "bold",
         "size": "xl",
         "align": "center"
@@ -18,97 +18,136 @@
       },
       {
         "type": "box",
-        "layout": "horizontal",
+        "layout": "vertical",
+        "spacing": "sm",
+        "margin": "lg",
         "contents": [
           {
-            "type": "text",
-            "text": "登録地",
-            "size": "sm",
-            "color": "#555555",
-            "flex": 2
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "\u767b\u9332\u5730",
+                "flex": 2,
+                "size": "md",
+                "weight": "bold"
+              },
+              {
+                "type": "text",
+                "text": "\u672a\u767b\u9332",
+                "flex": 3,
+                "size": "sm",
+                "color": "#888888"
+              },
+              {
+                "type": "button",
+                "action": {
+                  "type": "message",
+                  "label": "\u7de8\u96c6",
+                  "text": "\u6d17\u6fef\u6307\u6570\uff1a\u767b\u9332\u5730\u3092\u7de8\u96c6"
+                },
+                "style": "primary",
+                "height": "sm",
+                "flex": 2
+              }
+            ]
           },
           {
-            "type": "text",
-            "text": "未登録",
-            "size": "sm",
-            "color": "#111111",
-            "align": "end",
-            "flex": 3
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "\u901a\u77e5\u6642\u9593",
+                "flex": 2,
+                "size": "md",
+                "weight": "bold"
+              },
+              {
+                "type": "text",
+                "text": "\u672a\u767b\u9332",
+                "flex": 3,
+                "size": "sm",
+                "color": "#888888"
+              },
+              {
+                "type": "button",
+                "action": {
+                  "type": "message",
+                  "label": "\u7de8\u96c6",
+                  "text": "\u6d17\u6fef\u6307\u6570\uff1a\u901a\u77e5\u6642\u9593\u3092\u7de8\u96c6"
+                },
+                "style": "primary",
+                "height": "sm",
+                "flex": 2
+              }
+            ]
           },
           {
-            "type": "button",
-            "style": "primary",
-            "height": "sm",
-            "action": {
-              "type": "message",
-              "label": "編集",
-              "text": "編集：洗濯：場所"
-            },
-            "flex": 2
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "\u901a\u77e5\u66dc\u65e5",
+                "flex": 2,
+                "size": "md",
+                "weight": "bold"
+              },
+              {
+                "type": "text",
+                "text": "\u672a\u767b\u9332",
+                "flex": 3,
+                "size": "sm",
+                "color": "#888888"
+              },
+              {
+                "type": "button",
+                "action": {
+                  "type": "message",
+                  "label": "\u7de8\u96c6",
+                  "text": "\u6d17\u6fef\u6307\u6570\uff1a\u901a\u77e5\u66dc\u65e5\u3092\u7de8\u96c6"
+                },
+                "style": "primary",
+                "height": "sm",
+                "flex": 2
+              }
+            ]
           }
         ]
       },
       {
-        "type": "box",
-        "layout": "horizontal",
-        "contents": [
-          {
-            "type": "text",
-            "text": "通知時間",
-            "size": "sm",
-            "color": "#555555",
-            "flex": 2
-          },
-          {
-            "type": "text",
-            "text": "未登録",
-            "size": "sm",
-            "color": "#111111",
-            "align": "end",
-            "flex": 3
-          },
-          {
-            "type": "button",
-            "style": "primary",
-            "height": "sm",
-            "action": {
-              "type": "message",
-              "label": "編集",
-              "text": "編集：洗濯：時間"
-            },
-            "flex": 2
-          }
-        ]
+        "type": "separator",
+        "margin": "lg"
       },
       {
         "type": "box",
         "layout": "horizontal",
+        "margin": "lg",
+        "spacing": "md",
         "contents": [
           {
-            "type": "text",
-            "text": "通知曜日",
-            "size": "sm",
-            "color": "#555555",
-            "flex": 2
-          },
-          {
-            "type": "text",
-            "text": "未登録",
-            "size": "sm",
-            "color": "#111111",
-            "align": "end",
-            "flex": 3
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "\u30ad\u30e3\u30f3\u30bb\u30eb",
+              "text": "\u6d17\u6fef\u6307\u6570\uff1a\u7de8\u96c6\u3092\u30ad\u30e3\u30f3\u30bb\u30eb"
+            },
+            "style": "secondary",
+            "height": "sm",
+            "flex": 1
           },
           {
             "type": "button",
-            "style": "primary",
-            "height": "sm",
             "action": {
               "type": "message",
-              "label": "編集",
-              "text": "編集：洗濯：曜日"
+              "label": "\u5b8c\u4e86",
+              "text": "\u6d17\u6fef\u6307\u6570\uff1a\u7de8\u96c6\u3092\u5b8c\u4e86"
             },
-            "flex": 2
+            "style": "primary",
+            "height": "sm",
+            "flex": 1
           }
         ]
       }
