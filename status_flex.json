@@ -11,7 +11,7 @@
         "contents": [
           {
             "type": "text",
-            "text": "🧺 洗濯指数通知",
+            "text": "\ud83e\udf9a \u6d17\u6fef\u6307\u6570\u901a\u77e5",
             "weight": "bold",
             "size": "xl"
           },
@@ -23,12 +23,12 @@
             "contents": [
               {
                 "type": "text",
-                "text": "🏠 自宅：ON（07:30）",
+                "text": "\ud83c\udfe1 \u81ea\u5b85\uff1aON\uff0807:30\uff09",
                 "wrap": true
               },
               {
                 "type": "text",
-                "text": "川崎市中原区",
+                "text": "\u5ddd\u5d0e\u5e02\u4e2d\u539f\u533a",
                 "size": "sm",
                 "color": "#888888"
               },
@@ -44,8 +44,8 @@
                     "height": "sm",
                     "action": {
                       "type": "message",
-                      "label": "OFFにする",
-                      "text": "洗濯指数・自宅をOFFにする"
+                      "label": "OFF\u306b\u3059\u308b",
+                      "text": "\u6d17\u6fef\u6307\u6570\uff1a\u81ea\u5b85\u3092OFF\u306b\u3059\u308b"
                     }
                   },
                   {
@@ -55,212 +55,8 @@
                     "height": "sm",
                     "action": {
                       "type": "message",
-                      "label": "編集",
-                      "text": "洗濯指数・自宅を編集"
-                    }
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "type": "bubble",
-      "size": "mega",
-      "body": {
-        "type": "box",
-        "layout": "vertical",
-        "spacing": "md",
-        "contents": [
-          {
-            "type": "text",
-            "text": "👕 服装指数通知",
-            "weight": "bold",
-            "size": "xl"
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "spacing": "sm",
-            "margin": "md",
-            "contents": [
-              {
-                "type": "text",
-                "text": "🏠 自宅：OFF",
-                "wrap": true
-              },
-              {
-                "type": "text",
-                "text": "川崎市中原区",
-                "size": "sm",
-                "color": "#888888"
-              },
-              {
-                "type": "box",
-                "layout": "horizontal",
-                "spacing": "sm",
-                "contents": [
-                  {
-                    "type": "button",
-                    "flex": 1,
-                    "style": "secondary",
-                    "height": "sm",
-                    "action": {
-                      "type": "message",
-                      "label": "OFFにする",
-                      "text": "服装指数・自宅をONにする"
-                    }
-                  },
-                  {
-                    "type": "button",
-                    "flex": 1,
-                    "style": "primary",
-                    "height": "sm",
-                    "action": {
-                      "type": "message",
-                      "label": "編集",
-                      "text": "服装指数・自宅を編集"
-                    }
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": "📍 登録地①：未登録",
-                "wrap": true
-              },
-              {
-                "type": "box",
-                "layout": "horizontal",
-                "spacing": "sm",
-                "contents": [
-                  {
-                    "type": "button",
-                    "flex": 1,
-                    "style": "secondary",
-                    "height": "sm",
-                    "action": {
-                      "type": "message",
-                      "label": "追加",
-                      "text": "服装指数・登録地①を追加"
-                    }
-                  },
-                  {
-                    "type": "button",
-                    "flex": 1,
-                    "style": "primary",
-                    "height": "sm",
-                    "action": {
-                      "type": "message",
-                      "label": "編集",
-                      "text": "服装指数・登録地①を追加"
-                    }
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "type": "bubble",
-      "size": "mega",
-      "body": {
-        "type": "box",
-        "layout": "vertical",
-        "spacing": "md",
-        "contents": [
-          {
-            "type": "text",
-            "text": "☔ 傘通知",
-            "weight": "bold",
-            "size": "xl"
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "spacing": "sm",
-            "margin": "md",
-            "contents": [
-              {
-                "type": "text",
-                "text": "🏠 自宅：ON（08:00）",
-                "wrap": true
-              },
-              {
-                "type": "text",
-                "text": "川崎市中原区",
-                "size": "sm",
-                "color": "#888888"
-              },
-              {
-                "type": "box",
-                "layout": "horizontal",
-                "spacing": "sm",
-                "contents": [
-                  {
-                    "type": "button",
-                    "flex": 1,
-                    "style": "secondary",
-                    "height": "sm",
-                    "action": {
-                      "type": "message",
-                      "label": "OFFにする",
-                      "text": "傘通知・自宅をOFFにする"
-                    }
-                  },
-                  {
-                    "type": "button",
-                    "flex": 1,
-                    "style": "primary",
-                    "height": "sm",
-                    "action": {
-                      "type": "message",
-                      "label": "編集",
-                      "text": "傘通知・自宅を編集"
-                    }
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": "📍 登録地①：ON（07:45）月火水木金",
-                "wrap": true
-              },
-              {
-                "type": "text",
-                "text": "東京都港区",
-                "size": "sm",
-                "color": "#888888"
-              },
-              {
-                "type": "box",
-                "layout": "horizontal",
-                "spacing": "sm",
-                "contents": [
-                  {
-                    "type": "button",
-                    "flex": 1,
-                    "style": "secondary",
-                    "height": "sm",
-                    "action": {
-                      "type": "message",
-                      "label": "OFFにする",
-                      "text": "傘通知・登録地①をOFFにする"
-                    }
-                  },
-                  {
-                    "type": "button",
-                    "flex": 1,
-                    "style": "primary",
-                    "height": "sm",
-                    "action": {
-                      "type": "message",
-                      "label": "編集",
-                      "text": "傘通知・登録地①を編集"
+                      "label": "\u7de8\u96c6",
+                      "text": "\u6d17\u6fef\u6307\u6570\uff1a\u81ea\u5b85\u3092\u7de8\u96c6"
                     }
                   }
                 ]
