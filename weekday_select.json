@@ -1,0 +1,150 @@
+{
+  "type": "bubble",
+  "size": "mega",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "md",
+    "contents": [
+      {
+        "type": "text",
+        "text": "📅 通知曜日設定",
+        "weight": "bold",
+        "size": "xl",
+        "align": "center"
+      },
+      {
+        "type": "text",
+        "text": "通知したい曜日を選択してください",
+        "size": "md",
+        "align": "center",
+        "color": "#666666"
+      },
+      {
+        "type": "separator",
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "md",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "style": "primary",
+                "color": "#AAAAFF",
+                "action": {
+                  "type": "message",
+                  "label": "月",
+                  "text": "洗濯指数・曜日・月"
+                }
+              },
+              {
+                "type": "button",
+                "style": "primary",
+                "color": "#AAAAFF",
+                "action": {
+                  "type": "message",
+                  "label": "火",
+                  "text": "洗濯指数・曜日・火"
+                }
+              },
+              {
+                "type": "button",
+                "style": "primary",
+                "color": "#AAAAFF",
+                "action": {
+                  "type": "message",
+                  "label": "水",
+                  "text": "洗濯指数・曜日・水"
+                }
+              },
+              {
+                "type": "button",
+                "style": "primary",
+                "color": "#AAAAFF",
+                "action": {
+                  "type": "message",
+                  "label": "木",
+                  "text": "洗濯指数・曜日・木"
+                }
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "style": "primary",
+                "color": "#AAAAFF",
+                "action": {
+                  "type": "message",
+                  "label": "金",
+                  "text": "洗濯指数・曜日・金"
+                }
+              },
+              {
+                "type": "button",
+                "style": "primary",
+                "color": "#AAAAFF",
+                "action": {
+                  "type": "message",
+                  "label": "土",
+                  "text": "洗濯指数・曜日・土"
+                }
+              },
+              {
+                "type": "button",
+                "style": "primary",
+                "color": "#AAAAFF",
+                "action": {
+                  "type": "message",
+                  "label": "日",
+                  "text": "洗濯指数・曜日・日"
+                }
+              },
+              {
+                "type": "button",
+                "style": "primary",
+                "color": "#AAAAFF",
+                "action": {
+                  "type": "message",
+                  "label": "祝",
+                  "text": "洗濯指数・曜日・祝"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "separator",
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "button",
+            "style": "secondary",
+            "color": "#cccccc",
+            "action": {
+              "type": "message",
+              "label": "戻る",
+              "text": "洗濯指数・曜日設定を終了"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
