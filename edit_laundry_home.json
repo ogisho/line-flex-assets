@@ -99,9 +99,10 @@
               {
                 "type": "text",
                 "text": "{{weekday}}",
-                "flex": 3,
-                "size": "md",
-                "color": "#888888"
+                "flex": 4,
+                "size": "sm",
+                "color": "#888888",
+                "wrap": true
               },
               {
                 "type": "button",
